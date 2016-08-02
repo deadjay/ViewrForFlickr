@@ -7,14 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		107AB8CF1D508AAB00EBDD9A /* UIImage+UIImageCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 107AB8CE1D508AAB00EBDD9A /* UIImage+UIImageCategory.m */; };
+		107AB8D71D508ACE00EBDD9A /* backButtonBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 107AB8D01D508ACE00EBDD9A /* backButtonBlue.png */; };
+		107AB8D81D508ACE00EBDD9A /* crossCircleBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 107AB8D11D508ACE00EBDD9A /* crossCircleBlue.png */; };
+		107AB8D91D508ACE00EBDD9A /* launchImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 107AB8D21D508ACE00EBDD9A /* launchImage.png */; };
+		107AB8DA1D508ACE00EBDD9A /* loadingImage.tiff in Resources */ = {isa = PBXBuildFile; fileRef = 107AB8D31D508ACE00EBDD9A /* loadingImage.tiff */; };
+		107AB8DB1D508ACE00EBDD9A /* loginGif.gif in Resources */ = {isa = PBXBuildFile; fileRef = 107AB8D41D508ACE00EBDD9A /* loginGif.gif */; };
+		107AB8DC1D508ACE00EBDD9A /* withoutLoginBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 107AB8D51D508ACE00EBDD9A /* withoutLoginBackground.png */; };
+		107AB8DD1D508ACE00EBDD9A /* yahooBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 107AB8D61D508ACE00EBDD9A /* yahooBackground.png */; };
+		107AB8E11D508AFA00EBDD9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107AB8DF1D508AFA00EBDD9A /* LaunchScreen.storyboard */; };
+		107AB8E21D508AFA00EBDD9A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 107AB8E01D508AFA00EBDD9A /* Main.storyboard */; };
+		107AB8E61D508BEB00EBDD9A /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 107AB8E51D508BEB00EBDD9A /* Media.xcassets */; };
 		10B203351D50838400CB12EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B203341D50838400CB12EE /* main.m */; };
 		10B203381D50838400CB12EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B203371D50838400CB12EE /* AppDelegate.m */; };
-		10B2033E1D50838400CB12EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B2033C1D50838400CB12EE /* Main.storyboard */; };
 		10B203411D50838400CB12EE /* ViewrForFlickrFinal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10B2033F1D50838400CB12EE /* ViewrForFlickrFinal.xcdatamodeld */; };
-		10B203431D50838400CB12EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B203421D50838400CB12EE /* Assets.xcassets */; };
-		10B203461D50838400CB12EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B203441D50838400CB12EE /* LaunchScreen.storyboard */; };
 		10B203511D50838400CB12EE /* ViewrForFlickrFinalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B203501D50838400CB12EE /* ViewrForFlickrFinalTests.m */; };
 		10B2035C1D50838500CB12EE /* ViewrForFlickrFinalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B2035B1D50838500CB12EE /* ViewrForFlickrFinalUITests.m */; };
+		10B203771D50860A00CB12EE /* ADFavouritesController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B2036A1D50860900CB12EE /* ADFavouritesController.m */; };
+		10B203781D50860A00CB12EE /* ADLoginScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B2036C1D50860900CB12EE /* ADLoginScreenController.m */; };
+		10B203791D50860A00CB12EE /* ADMainScreenController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B2036E1D50860900CB12EE /* ADMainScreenController.m */; };
+		10B2037A1D50860A00CB12EE /* ADMoreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B203701D50860900CB12EE /* ADMoreController.m */; };
+		10B2037B1D50860A00CB12EE /* ADMyAlbumsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B203721D50860900CB12EE /* ADMyAlbumsController.m */; };
+		10B2037C1D50860A00CB12EE /* ADServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B203741D50860900CB12EE /* ADServerManager.m */; };
+		10B2037D1D50860A00CB12EE /* ADTrandingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B203761D50860900CB12EE /* ADTrandingController.m */; };
+		10B203881D50870600CB12EE /* ADAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B203871D50870600CB12EE /* ADAuthViewController.m */; };
+		10B2038E1D50883900CB12EE /* ADExploreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B2038D1D50883900CB12EE /* ADExploreController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,14 +52,24 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		107AB8CC1D508A8000EBDD9A /* NSLayoutConstraint_MyExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLayoutConstraint_MyExt.h; sourceTree = "<group>"; };
+		107AB8CD1D508AAB00EBDD9A /* UIImage+UIImageCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIImageCategory.h"; sourceTree = "<group>"; };
+		107AB8CE1D508AAB00EBDD9A /* UIImage+UIImageCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIImageCategory.m"; sourceTree = "<group>"; };
+		107AB8D01D508ACE00EBDD9A /* backButtonBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButtonBlue.png; sourceTree = "<group>"; };
+		107AB8D11D508ACE00EBDD9A /* crossCircleBlue.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crossCircleBlue.png; sourceTree = "<group>"; };
+		107AB8D21D508ACE00EBDD9A /* launchImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchImage.png; sourceTree = "<group>"; };
+		107AB8D31D508ACE00EBDD9A /* loadingImage.tiff */ = {isa = PBXFileReference; lastKnownFileType = image.tiff; path = loadingImage.tiff; sourceTree = "<group>"; };
+		107AB8D41D508ACE00EBDD9A /* loginGif.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loginGif.gif; sourceTree = "<group>"; };
+		107AB8D51D508ACE00EBDD9A /* withoutLoginBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = withoutLoginBackground.png; sourceTree = "<group>"; };
+		107AB8D61D508ACE00EBDD9A /* yahooBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yahooBackground.png; sourceTree = "<group>"; };
+		107AB8DF1D508AFA00EBDD9A /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = ../LaunchScreen.storyboard; sourceTree = "<group>"; };
+		107AB8E01D508AFA00EBDD9A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../Main.storyboard; sourceTree = "<group>"; };
+		107AB8E51D508BEB00EBDD9A /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 		10B203301D50838400CB12EE /* ViewrForFlickrFinal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewrForFlickrFinal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B203341D50838400CB12EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		10B203361D50838400CB12EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		10B203371D50838400CB12EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		10B2033D1D50838400CB12EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10B203401D50838400CB12EE /* ViewrForFlickrFinal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ViewrForFlickrFinal.xcdatamodel; sourceTree = "<group>"; };
-		10B203421D50838400CB12EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		10B203451D50838400CB12EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10B203471D50838400CB12EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		10B2034C1D50838400CB12EE /* ViewrForFlickrFinalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewrForFlickrFinalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B203501D50838400CB12EE /* ViewrForFlickrFinalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewrForFlickrFinalTests.m; sourceTree = "<group>"; };
@@ -50,6 +77,24 @@
 		10B203571D50838500CB12EE /* ViewrForFlickrFinalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ViewrForFlickrFinalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B2035B1D50838500CB12EE /* ViewrForFlickrFinalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewrForFlickrFinalUITests.m; sourceTree = "<group>"; };
 		10B2035D1D50838500CB12EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		10B203691D50860900CB12EE /* ADFavouritesController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADFavouritesController.h; sourceTree = "<group>"; };
+		10B2036A1D50860900CB12EE /* ADFavouritesController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADFavouritesController.m; sourceTree = "<group>"; };
+		10B2036B1D50860900CB12EE /* ADLoginScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADLoginScreenController.h; sourceTree = "<group>"; };
+		10B2036C1D50860900CB12EE /* ADLoginScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADLoginScreenController.m; sourceTree = "<group>"; };
+		10B2036D1D50860900CB12EE /* ADMainScreenController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMainScreenController.h; sourceTree = "<group>"; };
+		10B2036E1D50860900CB12EE /* ADMainScreenController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMainScreenController.m; sourceTree = "<group>"; };
+		10B2036F1D50860900CB12EE /* ADMoreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMoreController.h; sourceTree = "<group>"; };
+		10B203701D50860900CB12EE /* ADMoreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMoreController.m; sourceTree = "<group>"; };
+		10B203711D50860900CB12EE /* ADMyAlbumsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADMyAlbumsController.h; sourceTree = "<group>"; };
+		10B203721D50860900CB12EE /* ADMyAlbumsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADMyAlbumsController.m; sourceTree = "<group>"; };
+		10B203731D50860900CB12EE /* ADServerManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADServerManager.h; sourceTree = "<group>"; };
+		10B203741D50860900CB12EE /* ADServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADServerManager.m; sourceTree = "<group>"; };
+		10B203751D50860900CB12EE /* ADTrandingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTrandingController.h; sourceTree = "<group>"; };
+		10B203761D50860900CB12EE /* ADTrandingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTrandingController.m; sourceTree = "<group>"; };
+		10B203861D50870600CB12EE /* ADAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADAuthViewController.h; sourceTree = "<group>"; };
+		10B203871D50870600CB12EE /* ADAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADAuthViewController.m; sourceTree = "<group>"; };
+		10B2038C1D50883900CB12EE /* ADExploreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADExploreController.h; sourceTree = "<group>"; };
+		10B2038D1D50883900CB12EE /* ADExploreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADExploreController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +122,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		107A9E991D50890200EBDD9A /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				10B203361D50838400CB12EE /* AppDelegate.h */,
+				10B203371D50838400CB12EE /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		107AB8DE1D508AD700EBDD9A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				107AB8D01D508ACE00EBDD9A /* backButtonBlue.png */,
+				107AB8D11D508ACE00EBDD9A /* crossCircleBlue.png */,
+				107AB8D21D508ACE00EBDD9A /* launchImage.png */,
+				107AB8D31D508ACE00EBDD9A /* loadingImage.tiff */,
+				107AB8D41D508ACE00EBDD9A /* loginGif.gif */,
+				107AB8D51D508ACE00EBDD9A /* withoutLoginBackground.png */,
+				107AB8D61D508ACE00EBDD9A /* yahooBackground.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		107AB8E31D508B1400EBDD9A /* User Interface */ = {
+			isa = PBXGroup;
+			children = (
+				107AB8DE1D508AD700EBDD9A /* Images */,
+				107AB8E41D508B6C00EBDD9A /* UIImage Category */,
+				107AB8E01D508AFA00EBDD9A /* Main.storyboard */,
+				107AB8DF1D508AFA00EBDD9A /* LaunchScreen.storyboard */,
+				107AB8E51D508BEB00EBDD9A /* Media.xcassets */,
+				107AB8CC1D508A8000EBDD9A /* NSLayoutConstraint_MyExt.h */,
+			);
+			name = "User Interface";
+			sourceTree = "<group>";
+		};
+		107AB8E41D508B6C00EBDD9A /* UIImage Category */ = {
+			isa = PBXGroup;
+			children = (
+				107AB8CD1D508AAB00EBDD9A /* UIImage+UIImageCategory.h */,
+				107AB8CE1D508AAB00EBDD9A /* UIImage+UIImageCategory.m */,
+			);
+			name = "UIImage Category";
+			path = ..;
+			sourceTree = "<group>";
+		};
 		10B203271D50838300CB12EE = {
 			isa = PBXGroup;
 			children = (
@@ -100,11 +192,9 @@
 		10B203321D50838400CB12EE /* ViewrForFlickrFinal */ = {
 			isa = PBXGroup;
 			children = (
-				10B203361D50838400CB12EE /* AppDelegate.h */,
-				10B203371D50838400CB12EE /* AppDelegate.m */,
-				10B2033C1D50838400CB12EE /* Main.storyboard */,
-				10B203421D50838400CB12EE /* Assets.xcassets */,
-				10B203441D50838400CB12EE /* LaunchScreen.storyboard */,
+				107A9E991D50890200EBDD9A /* App Delegate */,
+				10B2037E1D50866B00CB12EE /* View Controllers */,
+				107AB8E31D508B1400EBDD9A /* User Interface */,
 				10B203471D50838400CB12EE /* Info.plist */,
 				10B2033F1D50838400CB12EE /* ViewrForFlickrFinal.xcdatamodeld */,
 				10B203331D50838400CB12EE /* Supporting Files */,
@@ -136,6 +226,112 @@
 				10B2035D1D50838500CB12EE /* Info.plist */,
 			);
 			path = ViewrForFlickrFinalUITests;
+			sourceTree = "<group>";
+		};
+		10B2037E1D50866B00CB12EE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				10B203841D5086D400CB12EE /* Server Manager */,
+				10B203851D5086E600CB12EE /* Login */,
+				10B203891D50870E00CB12EE /* Authorization */,
+				10B2037F1D50868700CB12EE /* Main Screen */,
+				10B2038A1D50873300CB12EE /* W/O Auth Screen */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		10B2037F1D50868700CB12EE /* Main Screen */ = {
+			isa = PBXGroup;
+			children = (
+				10B2036D1D50860900CB12EE /* ADMainScreenController.h */,
+				10B2036E1D50860900CB12EE /* ADMainScreenController.m */,
+				10B203821D5086A200CB12EE /* My Albums */,
+				10B203801D50869700CB12EE /* Favourites */,
+				10B2038B1D50877800CB12EE /* Explore */,
+				10B203831D5086A900CB12EE /* Trending */,
+				10B203811D50869D00CB12EE /* More */,
+			);
+			name = "Main Screen";
+			sourceTree = "<group>";
+		};
+		10B203801D50869700CB12EE /* Favourites */ = {
+			isa = PBXGroup;
+			children = (
+				10B203691D50860900CB12EE /* ADFavouritesController.h */,
+				10B2036A1D50860900CB12EE /* ADFavouritesController.m */,
+			);
+			name = Favourites;
+			sourceTree = "<group>";
+		};
+		10B203811D50869D00CB12EE /* More */ = {
+			isa = PBXGroup;
+			children = (
+				10B2036F1D50860900CB12EE /* ADMoreController.h */,
+				10B203701D50860900CB12EE /* ADMoreController.m */,
+			);
+			name = More;
+			sourceTree = "<group>";
+		};
+		10B203821D5086A200CB12EE /* My Albums */ = {
+			isa = PBXGroup;
+			children = (
+				10B203711D50860900CB12EE /* ADMyAlbumsController.h */,
+				10B203721D50860900CB12EE /* ADMyAlbumsController.m */,
+			);
+			name = "My Albums";
+			sourceTree = "<group>";
+		};
+		10B203831D5086A900CB12EE /* Trending */ = {
+			isa = PBXGroup;
+			children = (
+				10B203751D50860900CB12EE /* ADTrandingController.h */,
+				10B203761D50860900CB12EE /* ADTrandingController.m */,
+			);
+			name = Trending;
+			sourceTree = "<group>";
+		};
+		10B203841D5086D400CB12EE /* Server Manager */ = {
+			isa = PBXGroup;
+			children = (
+				10B203731D50860900CB12EE /* ADServerManager.h */,
+				10B203741D50860900CB12EE /* ADServerManager.m */,
+			);
+			name = "Server Manager";
+			sourceTree = "<group>";
+		};
+		10B203851D5086E600CB12EE /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				10B2036B1D50860900CB12EE /* ADLoginScreenController.h */,
+				10B2036C1D50860900CB12EE /* ADLoginScreenController.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		10B203891D50870E00CB12EE /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				10B203861D50870600CB12EE /* ADAuthViewController.h */,
+				10B203871D50870600CB12EE /* ADAuthViewController.m */,
+			);
+			name = Authorization;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		10B2038A1D50873300CB12EE /* W/O Auth Screen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "W/O Auth Screen";
+			sourceTree = "<group>";
+		};
+		10B2038B1D50877800CB12EE /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				10B2038C1D50883900CB12EE /* ADExploreController.h */,
+				10B2038D1D50883900CB12EE /* ADExploreController.m */,
+			);
+			name = Explore;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -241,9 +437,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10B203461D50838400CB12EE /* LaunchScreen.storyboard in Resources */,
-				10B203431D50838400CB12EE /* Assets.xcassets in Resources */,
-				10B2033E1D50838400CB12EE /* Main.storyboard in Resources */,
+				107AB8E61D508BEB00EBDD9A /* Media.xcassets in Resources */,
+				107AB8DD1D508ACE00EBDD9A /* yahooBackground.png in Resources */,
+				107AB8E11D508AFA00EBDD9A /* LaunchScreen.storyboard in Resources */,
+				107AB8D91D508ACE00EBDD9A /* launchImage.png in Resources */,
+				107AB8DA1D508ACE00EBDD9A /* loadingImage.tiff in Resources */,
+				107AB8DB1D508ACE00EBDD9A /* loginGif.gif in Resources */,
+				107AB8D81D508ACE00EBDD9A /* crossCircleBlue.png in Resources */,
+				107AB8E21D508AFA00EBDD9A /* Main.storyboard in Resources */,
+				107AB8DC1D508ACE00EBDD9A /* withoutLoginBackground.png in Resources */,
+				107AB8D71D508ACE00EBDD9A /* backButtonBlue.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,9 +471,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10B2037A1D50860A00CB12EE /* ADMoreController.m in Sources */,
+				10B203771D50860A00CB12EE /* ADFavouritesController.m in Sources */,
 				10B203381D50838400CB12EE /* AppDelegate.m in Sources */,
+				10B2037C1D50860A00CB12EE /* ADServerManager.m in Sources */,
+				10B2038E1D50883900CB12EE /* ADExploreController.m in Sources */,
+				10B203781D50860A00CB12EE /* ADLoginScreenController.m in Sources */,
+				10B203881D50870600CB12EE /* ADAuthViewController.m in Sources */,
+				10B2037D1D50860A00CB12EE /* ADTrandingController.m in Sources */,
+				10B2037B1D50860A00CB12EE /* ADMyAlbumsController.m in Sources */,
 				10B203411D50838400CB12EE /* ViewrForFlickrFinal.xcdatamodeld in Sources */,
+				107AB8CF1D508AAB00EBDD9A /* UIImage+UIImageCategory.m in Sources */,
 				10B203351D50838400CB12EE /* main.m in Sources */,
+				10B203791D50860A00CB12EE /* ADMainScreenController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,25 +517,6 @@
 			targetProxy = 10B203581D50838500CB12EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		10B2033C1D50838400CB12EE /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				10B2033D1D50838400CB12EE /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		10B203441D50838400CB12EE /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				10B203451D50838400CB12EE /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		10B2035E1D50838500CB12EE /* Debug */ = {
@@ -411,8 +605,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ViewrForFlickr",
+					App,
+					GIT,
+					"2/Code/Examples/firefox-ios-master/ThirdParty/PLCrashReporter",
+				);
 				INFOPLIST_FILE = ViewrForFlickrFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ViewrForFlickr",
+					App,
+					GIT,
+					"2/Code/Examples/firefox-ios-master/FxA/FxA/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.deadjay.ViewrForFlickrFinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -422,8 +630,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ViewrForFlickr",
+					App,
+					GIT,
+					"2/Code/Examples/firefox-ios-master/ThirdParty/PLCrashReporter",
+				);
 				INFOPLIST_FILE = ViewrForFlickrFinal/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ViewrForFlickr",
+					App,
+					GIT,
+					"2/Code/Examples/firefox-ios-master/FxA/FxA/lib",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.deadjay.ViewrForFlickrFinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -494,6 +716,7 @@
 				10B203621D50838500CB12EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10B203631D50838500CB12EE /* Build configuration list for PBXNativeTarget "ViewrForFlickrFinalTests" */ = {
 			isa = XCConfigurationList;
@@ -502,6 +725,7 @@
 				10B203651D50838500CB12EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		10B203661D50838500CB12EE /* Build configuration list for PBXNativeTarget "ViewrForFlickrFinalUITests" */ = {
 			isa = XCConfigurationList;
@@ -510,6 +734,7 @@
 				10B203681D50838500CB12EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
