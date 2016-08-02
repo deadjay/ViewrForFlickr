@@ -21,44 +21,23 @@
                             <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="loadingImage.tiff" translatesAutoresizingMaskIntoConstraints="NO" id="mLD-z7-gC2">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" image="launchImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="kua-3A-un0">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="kua-3A-un0">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="kua-3A-un0" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="2ce-TD-iud"/>
-                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="kua-3A-un0" secondAttribute="bottom" id="6HK-yL-qHA"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="kua-3A-un0" secondAttribute="trailing" constant="-20" id="0Rg-PV-KLo"/>
+                            <constraint firstItem="kua-3A-un0" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="3bf-D1-zzn"/>
                             <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="mLD-z7-gC2" secondAttribute="bottom" id="8zP-SB-874"/>
+                            <constraint firstItem="kua-3A-un0" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="-20" id="Fm5-JN-FYs"/>
                             <constraint firstItem="mLD-z7-gC2" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="GMv-Ih-TP8"/>
                             <constraint firstAttribute="trailingMargin" secondItem="mLD-z7-gC2" secondAttribute="trailing" constant="-20" id="PTX-fK-EKx"/>
                             <constraint firstItem="mLD-z7-gC2" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="-20" id="WQy-nd-NpV"/>
-                            <constraint firstItem="kua-3A-un0" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dod-Qf-oHR"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="kua-3A-un0" secondAttribute="trailing" constant="-20" id="o5L-UL-faR"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="kua-3A-un0" secondAttribute="bottom" id="kQc-yn-k05"/>
                             <constraint firstItem="mLD-z7-gC2" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="qTz-TS-ptN"/>
-                            <constraint firstItem="kua-3A-un0" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="-30" id="uud-i0-Ysk">
-                                <variation key="heightClass=regular-widthClass=compact" constant="-20"/>
-                            </constraint>
                             <constraint firstItem="mLD-z7-gC2" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="wds-9O-ck4"/>
                         </constraints>
-                        <variation key="default">
-                            <mask key="constraints">
-                                <exclude reference="2ce-TD-iud"/>
-                                <exclude reference="dod-Qf-oHR"/>
-                                <exclude reference="o5L-UL-faR"/>
-                                <exclude reference="uud-i0-Ysk"/>
-                                <exclude reference="6HK-yL-qHA"/>
-                            </mask>
-                        </variation>
-                        <variation key="heightClass=regular-widthClass=compact">
-                            <mask key="constraints">
-                                <include reference="2ce-TD-iud"/>
-                                <include reference="dod-Qf-oHR"/>
-                                <include reference="o5L-UL-faR"/>
-                                <include reference="uud-i0-Ysk"/>
-                                <include reference="6HK-yL-qHA"/>
-                            </mask>
-                        </variation>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>

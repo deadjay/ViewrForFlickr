@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		102F291E1D5095F5001E158B /* ADAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 102F291D1D5095F5001E158B /* ADAuthViewController.m */; };
 		107AB8CF1D508AAB00EBDD9A /* UIImage+UIImageCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = 107AB8CE1D508AAB00EBDD9A /* UIImage+UIImageCategory.m */; };
 		107AB8D71D508ACE00EBDD9A /* backButtonBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 107AB8D01D508ACE00EBDD9A /* backButtonBlue.png */; };
 		107AB8D81D508ACE00EBDD9A /* crossCircleBlue.png in Resources */ = {isa = PBXBuildFile; fileRef = 107AB8D11D508ACE00EBDD9A /* crossCircleBlue.png */; };
@@ -30,8 +31,8 @@
 		10B2037B1D50860A00CB12EE /* ADMyAlbumsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B203721D50860900CB12EE /* ADMyAlbumsController.m */; };
 		10B2037C1D50860A00CB12EE /* ADServerManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B203741D50860900CB12EE /* ADServerManager.m */; };
 		10B2037D1D50860A00CB12EE /* ADTrandingController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B203761D50860900CB12EE /* ADTrandingController.m */; };
-		10B203881D50870600CB12EE /* ADAuthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B203871D50870600CB12EE /* ADAuthViewController.m */; };
 		10B2038E1D50883900CB12EE /* ADExploreController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B2038D1D50883900CB12EE /* ADExploreController.m */; };
+		6B70013D814499670FD49E28 /* Pods_ViewrForFlickrFinal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D16B2E17713D0EF01AD240EE /* Pods_ViewrForFlickrFinal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		102F291C1D5095F5001E158B /* ADAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADAuthViewController.h; sourceTree = "<group>"; };
+		102F291D1D5095F5001E158B /* ADAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADAuthViewController.m; sourceTree = "<group>"; };
 		107AB8CC1D508A8000EBDD9A /* NSLayoutConstraint_MyExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSLayoutConstraint_MyExt.h; sourceTree = "<group>"; };
 		107AB8CD1D508AAB00EBDD9A /* UIImage+UIImageCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+UIImageCategory.h"; sourceTree = "<group>"; };
 		107AB8CE1D508AAB00EBDD9A /* UIImage+UIImageCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+UIImageCategory.m"; sourceTree = "<group>"; };
@@ -91,10 +94,11 @@
 		10B203741D50860900CB12EE /* ADServerManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADServerManager.m; sourceTree = "<group>"; };
 		10B203751D50860900CB12EE /* ADTrandingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADTrandingController.h; sourceTree = "<group>"; };
 		10B203761D50860900CB12EE /* ADTrandingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADTrandingController.m; sourceTree = "<group>"; };
-		10B203861D50870600CB12EE /* ADAuthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADAuthViewController.h; sourceTree = "<group>"; };
-		10B203871D50870600CB12EE /* ADAuthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADAuthViewController.m; sourceTree = "<group>"; };
 		10B2038C1D50883900CB12EE /* ADExploreController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ADExploreController.h; sourceTree = "<group>"; };
 		10B2038D1D50883900CB12EE /* ADExploreController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ADExploreController.m; sourceTree = "<group>"; };
+		52640D136126FDF44593D687 /* Pods-ViewrForFlickrFinal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewrForFlickrFinal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ViewrForFlickrFinal/Pods-ViewrForFlickrFinal.debug.xcconfig"; sourceTree = "<group>"; };
+		6DF1E012C1E927A1506F2FD1 /* Pods-ViewrForFlickrFinal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ViewrForFlickrFinal.release.xcconfig"; path = "Pods/Target Support Files/Pods-ViewrForFlickrFinal/Pods-ViewrForFlickrFinal.release.xcconfig"; sourceTree = "<group>"; };
+		D16B2E17713D0EF01AD240EE /* Pods_ViewrForFlickrFinal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ViewrForFlickrFinal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6B70013D814499670FD49E28 /* Pods_ViewrForFlickrFinal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,6 +127,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07F8033399E0AC15167C2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D16B2E17713D0EF01AD240EE /* Pods_ViewrForFlickrFinal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		107A9E991D50890200EBDD9A /* App Delegate */ = {
 			isa = PBXGroup;
 			children = (
@@ -176,6 +189,8 @@
 				10B2034F1D50838400CB12EE /* ViewrForFlickrFinalTests */,
 				10B2035A1D50838500CB12EE /* ViewrForFlickrFinalUITests */,
 				10B203311D50838400CB12EE /* Products */,
+				658E1295F9435998B5A1E944 /* Pods */,
+				07F8033399E0AC15167C2D7B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -311,8 +326,8 @@
 		10B203891D50870E00CB12EE /* Authorization */ = {
 			isa = PBXGroup;
 			children = (
-				10B203861D50870600CB12EE /* ADAuthViewController.h */,
-				10B203871D50870600CB12EE /* ADAuthViewController.m */,
+				102F291C1D5095F5001E158B /* ADAuthViewController.h */,
+				102F291D1D5095F5001E158B /* ADAuthViewController.m */,
 			);
 			name = Authorization;
 			path = ..;
@@ -334,6 +349,15 @@
 			name = Explore;
 			sourceTree = "<group>";
 		};
+		658E1295F9435998B5A1E944 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52640D136126FDF44593D687 /* Pods-ViewrForFlickrFinal.debug.xcconfig */,
+				6DF1E012C1E927A1506F2FD1 /* Pods-ViewrForFlickrFinal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -341,9 +365,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10B203601D50838500CB12EE /* Build configuration list for PBXNativeTarget "ViewrForFlickrFinal" */;
 			buildPhases = (
+				37B968EDE82AB384BB1C5F89 /* Check Pods Manifest.lock */,
 				10B2032C1D50838400CB12EE /* Sources */,
 				10B2032D1D50838400CB12EE /* Frameworks */,
 				10B2032E1D50838400CB12EE /* Resources */,
+				3DFD47E53D1B8ECE3FA96078 /* Embed Pods Frameworks */,
+				5295E62BCF15203E7ED25727 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -401,6 +428,7 @@
 				TargetAttributes = {
 					10B2032F1D50838400CB12EE = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9K93F66NC9;
 					};
 					10B2034B1D50838400CB12EE = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -466,6 +494,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37B968EDE82AB384BB1C5F89 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3DFD47E53D1B8ECE3FA96078 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViewrForFlickrFinal/Pods-ViewrForFlickrFinal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5295E62BCF15203E7ED25727 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ViewrForFlickrFinal/Pods-ViewrForFlickrFinal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10B2032C1D50838400CB12EE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -477,7 +553,7 @@
 				10B2037C1D50860A00CB12EE /* ADServerManager.m in Sources */,
 				10B2038E1D50883900CB12EE /* ADExploreController.m in Sources */,
 				10B203781D50860A00CB12EE /* ADLoginScreenController.m in Sources */,
-				10B203881D50870600CB12EE /* ADAuthViewController.m in Sources */,
+				102F291E1D5095F5001E158B /* ADAuthViewController.m in Sources */,
 				10B2037D1D50860A00CB12EE /* ADTrandingController.m in Sources */,
 				10B2037B1D50860A00CB12EE /* ADMyAlbumsController.m in Sources */,
 				10B203411D50838400CB12EE /* ViewrForFlickrFinal.xcdatamodeld in Sources */,
@@ -603,8 +679,11 @@
 		};
 		10B203611D50838500CB12EE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52640D136126FDF44593D687 /* Pods-ViewrForFlickrFinal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ViewrForFlickr",
@@ -623,13 +702,17 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.deadjay.ViewrForFlickrFinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		10B203621D50838500CB12EE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6DF1E012C1E927A1506F2FD1 /* Pods-ViewrForFlickrFinal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ViewrForFlickr",
@@ -648,6 +731,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.deadjay.ViewrForFlickrFinal;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
