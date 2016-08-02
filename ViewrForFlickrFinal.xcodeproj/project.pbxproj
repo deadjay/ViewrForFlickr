@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		10B203351D50838400CB12EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B203341D50838400CB12EE /* main.m */; };
 		10B203381D50838400CB12EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B203371D50838400CB12EE /* AppDelegate.m */; };
-		10B2033B1D50838400CB12EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 10B2033A1D50838400CB12EE /* ViewController.m */; };
 		10B2033E1D50838400CB12EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B2033C1D50838400CB12EE /* Main.storyboard */; };
 		10B203411D50838400CB12EE /* ViewrForFlickrFinal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10B2033F1D50838400CB12EE /* ViewrForFlickrFinal.xcdatamodeld */; };
 		10B203431D50838400CB12EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B203421D50838400CB12EE /* Assets.xcassets */; };
@@ -40,8 +39,6 @@
 		10B203341D50838400CB12EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		10B203361D50838400CB12EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		10B203371D50838400CB12EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		10B203391D50838400CB12EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		10B2033A1D50838400CB12EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		10B2033D1D50838400CB12EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		10B203401D50838400CB12EE /* ViewrForFlickrFinal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ViewrForFlickrFinal.xcdatamodel; sourceTree = "<group>"; };
 		10B203421D50838400CB12EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -105,8 +102,6 @@
 			children = (
 				10B203361D50838400CB12EE /* AppDelegate.h */,
 				10B203371D50838400CB12EE /* AppDelegate.m */,
-				10B203391D50838400CB12EE /* ViewController.h */,
-				10B2033A1D50838400CB12EE /* ViewController.m */,
 				10B2033C1D50838400CB12EE /* Main.storyboard */,
 				10B203421D50838400CB12EE /* Assets.xcassets */,
 				10B203441D50838400CB12EE /* LaunchScreen.storyboard */,
@@ -273,7 +268,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				10B2033B1D50838400CB12EE /* ViewController.m in Sources */,
 				10B203381D50838400CB12EE /* AppDelegate.m in Sources */,
 				10B203411D50838400CB12EE /* ViewrForFlickrFinal.xcdatamodeld in Sources */,
 				10B203351D50838400CB12EE /* main.m in Sources */,

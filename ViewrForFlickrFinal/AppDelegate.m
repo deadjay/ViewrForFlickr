@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "ADServerManager.h"
+#import "ADMainScreenController.h"
+#import "FlickrKit.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +19,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    [self connectFlickrKitAPI];
+    
+    if ([FlickrKit sharedFlickrKit].isAuthorized == YES) {
+        
+        NSLog(@"Is Authorized");
+        
+        UIStoryboard* storyboard = [UIStoryboard storyboardWithName:@"MainStoryboard" bundle:nil];
+        
+        ADMainScreenController* vc = [storyboard instantiateViewControllerWithIdentifier:@"mainControllerID"];
+        
+        
+        [(UINavigationController*)self.window.rootViewController pushViewController:vc animated:NO];
+        
+        
+    }
+    
     return YES;
 }
 
@@ -122,6 +141,23 @@
             abort();
         }
     }
+}
+
+#pragma mark - Methods
+
+-(BOOL)prefersStatusBarHidden {
+    
+    return YES;
+    
+}
+
+- (void) connectFlickrKitAPI {
+    
+    NSString* apiKey = @"cb588e8360be6ac11c8bb18af736e897";
+    NSString* secret = @"30c9e0131d9a1bc5";
+    
+    [[FlickrKit sharedFlickrKit] initializeWithAPIKey:apiKey sharedSecret:secret];
+    
 }
 
 @end
