@@ -1,6 +1,6 @@
 # Viewr For Flickr #
 
-An iOS application, written on Swift.
+An iOS application, written on Swift (currently porting to Swift from Obj-C).
 
 # Description #
 
@@ -23,6 +23,6 @@ Features:
 
 # Notes #
 
-This is my first personal project and now it's on development stage (6/10).
-- Different open-source frameworks were used in this project (FlickrKit, FLAnimatedImage, AFNetworking, etc.)
+This is my first personal project and now it's on development stage (3/10).
+- Different open-source frameworks were used in this project (FlickrKit, FLAnimatedImage, Alamofire, etc.)
 - UI also was made by me :)
